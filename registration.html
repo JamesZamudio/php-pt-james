@@ -1,0 +1,32 @@
+<html>
+<head><h2>Registration Form </h2><head>
+    <body>
+    <FORM name="frmRegistration" method="POST" action="frmDisplay.php">
+    <table border="1">
+        <tr><td> Enter Name             :  </td> <td> <input type="text" name="txtName"> </td><tr>
+        <tr><td> Enter Phone Num            :  </td> <td> <input type="text" name="txtPhone"> </td><tr>
+        <tr><td> Select Gender          :</td>
+        <td> <input type="radio" name="rdGender" value="MALE">MALE <br>
+        <input type="radio" name="rdoGender" value="FEMALE">FEMALE
+        </td></tr>
+        <tr><td> Enter Address            :  </td> <td> <input type="textarea" name="txtAdd" size="30"> </td><tr>
+        <tr><td> Select City            :  </td> <td> <select type="sCity" width=40>
+        <option name="1"> Cebu
+        <option name="2"> Makati
+        <option name="3"> Pasig
+        <option name="4"> Antipolo
+        </td></tr>
+        <tr><td> Education    :  </td> <td> <input type="checkbox" name="e[]" value="BSOA"> BSOA </td></tr>
+        <tr><td></td><td>    <input type="checkbox" name="ed[]" value="BSCS"> BSCS </td></tr>
+        <tr><td></td><td>    <input type="checkbox" name="ed[]" value="BSTM"> BSTM </td></tr>
+        <tr><td></td><td>    <input type="checkbox" name="ed[]" value="BSBA"> BSBA </td></tr>
+        <tr><td></td><td>    <input type="checkbox" name="ed[]" value="HUMMS"> HUMMS </td></tr>
+        <tr><td></td><td>    <input type="checkbox" name="ed[]" value="ICT"> ICT </td></tr>
+        <tr><td></td><td>    <input type="checkbox" name="ed[]" value="ABM"> ABM </td></tr>
+        <tr><td></td><td>    <input type="checkbox" name="ed[]" value="STEM"> STEM </td></tr>
+
+        <tr><td colspan=2 align="center"> <input type="submit" name="submitForm" value="Submit"></td></tr>
+       </table>
+    </form>
+    </body>
+</html>
